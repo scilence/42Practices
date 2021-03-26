@@ -1,9 +1,9 @@
 from random import random
-from random import randrange
+from random import randint
 
 print("Guessing Number: 1 ~ 100\n")
 
-current = randrange(1, 100, 1)
+current = randint(1, 100)
 idx = 0
 
 while True:

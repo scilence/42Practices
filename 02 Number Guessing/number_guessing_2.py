@@ -1,11 +1,11 @@
 from random import random
-from random import randrange
+from random import randint
 
 print("Guessing Number: 1 ~ 100\n")
 
 min = 1
 max = 100
-answer = randrange(min, max, 1)
+answer = randint(min, max)
 guess = 0
 idx = 0
 
